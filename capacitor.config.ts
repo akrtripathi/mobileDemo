@@ -1,9 +1,14 @@
-import type { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'lxg-mobile-new',
-  webDir: 'dist'
+  plugins: {
+    LiveUpdates: {
+      appId: '689ea234',
+      channel: 'Production',
+      autoUpdateMethod: 'none',
+      maxVersions: 3
+    }
+  }
 };
 
 export default config;
