@@ -1,0 +1,7 @@
+{
+  "name": "lxg-mobile-new",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
